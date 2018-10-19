@@ -15,7 +15,7 @@ def roll_dice():
 
 def play_again():
     '''Asks the user if you want to play again
-    if the user responds with Yes or Y (case insensitive),
+    if the user responds with Yes or Y (case insensitive), 
     it replays the game. For all other responses, game ends'''
     your_input = input("Do you want to play again? ").upper()
     if your_input == "YES" or your_input == "Y":
@@ -26,4 +26,4 @@ def play_again():
 
 
 if __name__ == "__main__":
-    main(
+    main()
